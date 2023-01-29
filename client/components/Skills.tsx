@@ -6,18 +6,18 @@ import Image from 'next/image'
 
 const Skills = () => {
 
-    const [loading, setLoading] = React.useState(true)
+    const [loading, setLoading] = React.useState(false)
     // write a dummy array of skills
 
-    React.useEffect(() => {
+    // React.useEffect(() => {
 
-        setTimeout(() => {
-            setLoading(false)
-            // let myelement=document.getElementById('my-fenils').classList.add('h-auto');
+    //     setTimeout(() => {
+    //         setLoading(false)
+    //         // let myelement=document.getElementById('my-fenils').classList.add('h-auto');
 
 
-        }, 2000)
-    }, [])
+    //     }, 2000)
+    // }, [])
     const skills = [
         {
             id: 1,
@@ -61,7 +61,7 @@ const Skills = () => {
             {loading ? <div className="text-center"><Loading /></div> :
 
                 skills.map(skill => (
-                    <div key={skill.id} className='hover:bg-gray-200 focus:bg-gray-200 mx-11 my-10 p-4 rounded-xl'>
+                    <div key={skill.id} className='hover:bg-gray-200 transition-all focus:bg-gray-200 mx-11 my-10 p-4 rounded-xl'>
                         <div className="flex justify-between mb-1">
                             <span className="text-base font-medium text-blue-700 dark:text-white flex items-center gap-2">
                                 <span className='m-3 border-[#383838] border-[1.5px] rounded-xl p-3'>

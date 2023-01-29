@@ -42,7 +42,7 @@ const Services = () => {
     return (
         <div>
             < Script src="https://kit.fontawesome.com/0aa05e1cf3.js" crossOrigin="anonymous" ></Script>
-            <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+            {/* <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script> */}
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto ">
                     <div className="text-center mb-20">
@@ -55,7 +55,7 @@ const Services = () => {
                     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                         {
                             services.map(service => (
-                                <div key={service.id} className="p-4 rounded-xl fouces:bg-gray-200 hover:bg-gray-200 md:w-1/3 flex flex-col text-center items-center">
+                                <div key={service.id} className="p-4 rounded-xl fouces:bg-gray-200  transition-all hover:bg-gray-200 md:w-1/3 flex flex-col text-center items-center">
                                     <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
                                         {/* idenficer expcted error coming */}
                                         <i className={`${service.icon} scale-150`}></i>
