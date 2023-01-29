@@ -1,0 +1,7 @@
+{
+  "name": "myPortfolio",
+  "version": "1.0.0",
+  "description": "this is a server for a Portfolio",
+  "main": "index.js",
+  "license": "MIT"
+}
