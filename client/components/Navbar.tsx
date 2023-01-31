@@ -19,8 +19,8 @@ const Navbar = () => {
                         <Link href={"/contact"} className="mr-5 hover:text-gray-900">Contact Me</Link>
                         <Link href={"/certificates"} className="mr-5 hover:text-gray-900">Certificates</Link>
                     </nav>
-                    <Link href={"/resume.pdf"} target={"_blank"}>
-                        <button className="inline-flex items-center0 border-0 px-4 py-2 transition-all duration-150 ease-linear gap-2 focus:outline-none bg-gray-600 items-center hover:bg-gray-500 rounded text-white mt-4 md:mt-0"><FaDownload />Resume</button></Link>
+                    <a href={"/resume.pdf"} download>
+                        <button className="inline-flex items-center0 border-0 px-4 py-2 transition-all duration-150 ease-linear gap-2 focus:outline-none bg-gray-600 items-center hover:bg-gray-500 rounded text-white mt-4 md:mt-0"><FaDownload />Resume</button></a>
                 </div>
             </header>
         </>
