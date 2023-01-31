@@ -11,7 +11,10 @@ const home = () => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>Fenil Sonani-Home</title>
+        <meta name="description" content="This is a personal portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
       <HeroSec />
       <Services />

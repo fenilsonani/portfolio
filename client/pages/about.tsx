@@ -1,10 +1,17 @@
 import AboutHeroLeft from '@/components/AboutHeroLeft'
 import AboutHeroRight from '@/components/AboutHeroRight'
+import Head from 'next/head'
 import React from 'react'
 
 const About = () => {
   return (
     <div>
+      <Head>
+        <title>Fenil Sonani-About</title>
+        <meta name="description" content="This is a personal portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.ico" />
+      </Head>
       <AboutHeroRight title="Career Objective" desc="To leverage my expertise and passion for (specific skills or industry) as a freelance consultant, delivering exceptional results for clients and continuously expanding my portfolio of projects and clientele.  " imgUrl="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/09/23164703/Career-Objective.jpg" />
       <AboutHeroLeft title="Education and Qualification" descTitle="Bachelor's degree in Information
       Technology (BSc IT) at Uka Tarsadia University " desc="Study focuses on the development and management of

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Head from 'next/head'
 import React from 'react'
 
 const contact = () => {
@@ -14,6 +15,12 @@ const contact = () => {
 
     return (
         <div>
+            <Head>
+        <title>Fenil Sonani-Contact</title>
+        <meta name="description" content="This is a personal portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.ico" />
+      </Head>
             <section className="text-gray-600 body-font relative">
                 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
